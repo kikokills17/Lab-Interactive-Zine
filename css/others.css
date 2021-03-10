@@ -1,0 +1,68 @@
+/* other pages*/
+/* others pages container */
+body {
+  height: 100%;
+  min-height: 100%;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+}
+
+.others {
+  width: 100%;
+  min-width: 32rem;
+  height: 100%;
+  padding: 0 2.5rem;
+  font-size: 4.8rem;
+  line-height: 4rem;
+  position: initial;
+}
+.others>h1.work-title {
+  position: absolute;
+  top: -8rem;
+  left: 0;
+  width: 100%;
+  font-weight: normal;
+  text-align: center;
+  font-size: 4.8rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.others>.work-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.others>.work-picture img {
+  width: 100%;
+  max-width: 80rem;
+  /* display: none; */
+}
+/* .others>.work-picture img.active {
+  display: block;
+} */
+.others>.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 4.8rem;
+  width: 100%;
+  min-width: 32rem;
+}
+.others>.footer .footer-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.others>.footer .footer-btns>li {
+  flex: 1;
+  text-align: center;
+}
+.others>.footer .footer-btns>li>a {
+  display: block;
+  line-height: 4.8rem;
+}
