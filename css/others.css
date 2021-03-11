@@ -20,7 +20,8 @@ body {
   position: absolute;
   top: -8rem;
   left: 0;
-  width: 100%;
+  width: 90%;
+  margin-left: 10%;
   font-weight: normal;
   text-align: center;
   font-size: 4.8rem;
@@ -40,11 +41,11 @@ body {
 .others>.work-picture img {
   width: 100%;
   max-width: 80rem;
-  /* display: none; */
+  display: none;
 }
-/* .others>.work-picture img.active {
+.others>.work-picture img.active {
   display: block;
-} */
+}
 .others>.footer {
   position: fixed;
   left: 0;
@@ -65,4 +66,20 @@ body {
 .others>.footer .footer-btns>li>a {
   display: block;
   line-height: 4.8rem;
+}
+
+/* go back */
+a.back {
+  position: absolute;
+  top: -8.5rem;
+  left: 1rem;
+  width: 5rem;
+  height: 5rem;
+  line-height: 6rem;
+  background-color: #000;
+  border-radius: 50%;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  z-index: 999;
 }
